@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forside</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Alatsi&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Sans+Libre&display=swap');
+    </style>
+</head>
+<body>
+    
+  <header class="main-header">
+        <div class="top-row">
+            <div class="logo-placeholder">
+                <!-- farmors food logo ind her -->
+                 <img src="img/fflogo.png" tabindex="0" alt="farmors food logo ">
+            </div>
+            <nav class="nav-links" aria-label="Hovednavigation">
+                <a href="index.html" >Forside</a>
+                <a href="#produkter">Produkter</a>
+                <a href="historien.html "aria-current="page">Historien</a>
+                <a href="#arrangementer">Arrangementer</a>
+                <a href="#opskrifter">Opskrifter</a>
+                <a href="kontakt.html">Kontakt os</a>
+            </nav>
+            <button class="hamburger-menu" aria-label="Menu" aria-controls="mobileNav"aria-expanded="false">
+                <span class="hamburger-line"aria-hidden="true"></span>
+                <span class="hamburger-line"aria-hidden="true"></span>
+                <span class="hamburger-line"aria-hidden="true"></span>
+            </button>
+        </div>
+        
+        <!-- til når den er i mobil tilstand -->
+        <nav class="mobile-nav" id="mobileNav" aria-label="Mobilnavigation">
+            <a href="index.html" >Forside</a>
+            <a href="#produkter">Produkter</a>
+            <a href="historien.html"aria-current="page">Historien</a>
+            <a href="#arrangementer">Arrangementer</a>
+            <a href="#opskrifter">Opskrifter</a>
+            <a href="kontakt.html">Kontakt os</a>
+        </nav>
+        
+        <div class="search-row">
+            <div class="search-icon-placeholder" aria-hidden="true">
+                <img src="img/ffvarer.png" tabindex="0" alt="kurv">
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search..." class="search-input" aria-label="Søg på siden">
+            </div>
+        </div>
+    </header>
+    
+    <script src="script.js"></script>
+
+<!-- Overskrift med ikon til venstre -->
+    <div class="heading-container">
+        <img src="img/farmor.png" tabindex="0" alt="Farmor ikon" class="icon-left">
+        <h1 class="front" tabindex="0">Skabt med kærlighed</h1>
+    </div>
+
+<!-- Billede under overskriften -->
+    <div class="main-image">
+        <img src="img/billede1.png" tabindex="0" alt="Grill med venner">
+    </div>
+
+<!-- Tekst under billedet -->
+<div class="content-section">
+    <div class="text-content">
+        <p tabindex="0">Vi laver smagfulde fødevarer af rene råvarer og helt uden kunstige tilsætningsstoffer</p>
+    </div>
+    
+    <!-- Ikoner til højre - forskudt layout -->
+    <div class="icons-right">
+        <img src="img/markat.png" tabindex="0" alt="Markat ikon" class="markat-icon">
+        <img src="img/kniv.png" tabindex="0" alt="Kniv ikon" class="kniv-icon">
+    </div>
+</div>
+
+<!-- Divider linje -->
+<div class="divider"></div>
+
+<!-- Julepriser sektion -->
+<section class="julepriser-section">
+    <h2 tabindex="0">Julepriser</h2>
+    
+    <!-- Billede med knap oven på -->
+    <div class="julepriser-container">
+        <img src="img/billede2.png" tabindex="0" alt="Grill pølser ved grill" class="julepriser-image">
+        
+        <!-- Knap oven på billedet -->
+        <a href="#" class="tilbud-button" tabindex="0">TILBUD 20%</a>
+    </div>
+</section>
+
+<!-- Divider linje -->
+<div class="divider"></div>
+
+<!--Inspiration Sektion-->
+<section class="inspiration-section">
+    <h2 tabindex="0">Find inspiration</h2>
+    <h3 tabindex="0">Vores opskrifter</h3>
+
+<!-- Billede med knap oven på -->
+ <div class="inspiration-container">
+    <img src="img/billede3.png" tabindex="0"alt="Grillpølser med kartoffelmos" class="inspiration-image">
+
+    <!-- Knap oven på billedet -->
+     <a href="#" class="inspiration-button" tabindex="0">Læs mere</a>
+</div>
+
+<div class="newsletter-box">
+    <div class="newsletter-text">
+        <p tabindex="0">
+            Tilmeld dig vores nyhedsbrev for at holde dig opdateret på nye tilbud
+            og nye opskrifter
+        </p>
+    </div>
+
+    <a href="#" class="newsletter-button" tabindex="0">Klik her</a>
+</div>
+</section>
+
+<!-- Divider linje -->
+<div class="divider"></div>
+
+<!--Anmeldelse Sektion-->
+<section class="reviews-section">
+    <h2 tabindex="0">Anmeldelser</h2>
+
+    <div class="reviews-slider">
+
+        <div class="review-card">
+            <p class="review-text" tabindex="0">
+                “Har smagt kyllingepølser og fennikelpølser og glæder mig allerede til at smage mere.
+                Kraftig og saftig smag af en dejlig pølse. Mere af det!”
+            </p>
+            <p class="review-author" tabindex="0">Rasmus S. – Kolding</p>
+        </div>
+
+        <div class="review-card">
+            <p class="review-text" tabindex="0">
+                “Super dejlige pølser, saftige og lækre - man smager straks kvalitet!
+                Lige til at smide på grillen.”
+            </p>
+            <p class="review-author" tabindex="0">Claus Warming – Kolding</p>
+        </div>
+
+        <div class="review-card">
+            <p class="review-text" tabindex="0">
+                “Farmors Pølser er lige som jeg kan lide dem. Man er ikke i tvivl om kvaliteten,
+                når først man har sat tænderne i dem.”
+            </p>
+            <p class="review-author" tabindex="0">Peter Jensen – Horsens</p>
+        </div>
+
+        <div class="review-card">
+            <p class="review-text" tabindex="0">
+                “Virkelig lækre pølser og Lars er så flink at handle med.”
+            </p>
+            <p class="review-author" tabindex="0">Inge Petersen – Vejle</p>
+        </div>
+
+        <div class="review-card">
+            <p class="review-text" tabindex="0">
+                “Oste/bacon pølsen sammen med Farmors Griller er mine favoritter.
+                Man kan smage kvaliteten.”
+            </p>
+            <p class="review-author" tabindex="0">Mikael Wolff – Frederikssund</p>
+        </div>
+
+        <div class="review-card">
+            <p class="review-text" tabindex="0">
+                “Farmors hvidløg var rigtig gode og meget fint afstemt i smagen.”
+            </p>
+            <p class="review-author" tabindex="0">Freddy Lund – Ikast</p>
+        </div>
+
+        <div class="review-card">
+            <p class="review-text" tabindex="0">
+                “Jeg er bare vild med Farmors kyllingepølser. Perfekt krydrede
+                og med det perfekte knæk.”
+            </p>
+            <p class="review-author" tabindex="0">Kenneth L. Milling – Kolding</p>
+        </div>
+
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="footer-section">
+        <h2 tabindex="0">Kontakt os</h2>
+        <p tabindex="0">Tlf: +45 60 13 28 68</p>
+        <p tabindex="0">Email: farmor@farmorsfood.dk</p>
+ 
+        <div class="footer-icons">
+            <i class="fa-solid fa-envelope" tabindex="0"></i>
+            <i class="fa-brands fa-facebook" tabindex="0"></i>
+            <i class="fa-brands fa-instagram" tabindex="0"></i>
+        </div>
+    </div>
+ 
+    <div class="footer-section">
+        <h3 tabindex="0">FARMORS FOOD™</h3>
+        <p tabindex="0">Klostergade 9A<br>
+        6000 Kolding<br>
+        Danmark</p>
+    </div>
+ 
+    <div class="footer-section">
+        <h3 tabindex="0">Åbningstider</h3>
+        <p tabindex="0">Tirsdag 13.00 - 16.00</p>
+        <p tabindex="0">Torsdag 13.00 - 16.00</p>
+        <p tabindex="0">Eller efter aftale</p>
+    </div>
+</footer>
+
+</body>
+</html>
